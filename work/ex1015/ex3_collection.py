@@ -94,3 +94,22 @@ print("d1.values()",values)
 
 key_list = list(keys) # List 값으로 바꾼 값.
 print("list로 바꾼 dict(keys)값들:{}"  .format(key_list))
+
+"""_summary_
+변경가능(mutable):List Set dict
+변경불가(immutable): int float bool String tuple
+"""
+var1 = 100
+var2 = 200
+print("ID(Var1):{}" .format(id(var1)))
+print("ID(Var2):{}" .format(id(var2)))
+print("===============================")
+var2=var1
+print("ID(Var1):{}" .format(id(var1)))
+print("ID(Var2):{}" .format(id(var2)))
+
+res = var1 is var2
+print("var1 is var2={}" .format(res))
+print("(Var1):{}" .format((var1)))
+print("(Var2):{}" .format((var2)))
+
