@@ -3,3 +3,4 @@ work/ai_agent_ex1/.env
 
 # 가상 환경 폴더 무시
 .venv/
+venv312/
