@@ -33,7 +33,7 @@ class ChromaRAG:
         
         # 3. 클로드에 질문
         response = self.claude.messages.create(
-            model = "claude-3-5-haiku-latest",
+            model = "claude-sonnet-4-20250514",
             max_tokens=200,
             messages=[{
                 "role":"user",
